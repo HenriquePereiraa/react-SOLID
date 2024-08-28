@@ -1,0 +1,7 @@
+No desenvolvimento de software, os "módulos de alto nível" são aqueles que possuem lógica de negócio importante, 
+enquanto os "módulos de baixo nível" são os que implementam detalhes específicos, como comunicação com APIs,
+bancos de dados, etc.
+
+O DIP sugere que, ao invés dos módulos de alto nível dependerem diretamente dos módulos de baixo nível, ambos devem
+depender de interfaces ou abstrações. Isso ajuda a evitar um código fortemente acoplado e facilita a manutenção e
+extensibilidade do sistema.
