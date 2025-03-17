@@ -1,11 +1,13 @@
 import { Login } from "./components/DIP/form";
-import { UserProfileContainer } from "./components/SRP/UserProfileContainer";
+import { ShowNotifications } from "./components/OCP";
+import { UserProfileContainer } from "./components/SRP/userProfileContainer";
 
 function App() {
   return (
     <>
       <Login />
       <UserProfileContainer />
+      <ShowNotifications />
     </>
   );
 }
